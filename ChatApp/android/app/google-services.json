@@ -1,113 +1,42 @@
 {
   "project_info": {
-    "project_number": "322501073712",
-    "project_id": "fluttergram-a5de2",
-    "storage_bucket": "fluttergram-a5de2.appspot.com"
+    "project_number": "578525692226",
+    "project_id": "chatappflutter-9edbf",
+    "storage_bucket": "chatappflutter-9edbf.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:322501073712:android:f2c39cc2e7dabd558bc6f5",
+        "mobilesdk_app_id": "1:578525692226:android:8370eb4a57eb089b4608db",
         "android_client_info": {
-          "package_name": "com.example.firebase_practice"
+          "package_name": "com.example.ChatApp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "322501073712-4qmgllug92s08vcf5l0j6k3igo86tei5.apps.googleusercontent.com",
+          "client_id": "578525692226-19oad2lr3h8cb7rgmf0pv71hn9o7jumr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ChatApp",
+            "certificate_hash": "8eb82d34e9801d8ca7e69626d0e5697d48f1748c"
+          }
+        },
+        {
+          "client_id": "578525692226-9uoqqmmrrbcvg4c1sium2c98keji6ufo.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA521uyL_Mq880oIZHgCgY_DZSXWMrVL4g"
+          "current_key": "AIzaSyBnnZYYx-hnr3eTY3NmaQKtxh2J7-95J7c"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "322501073712-4qmgllug92s08vcf5l0j6k3igo86tei5.apps.googleusercontent.com",
+              "client_id": "578525692226-9uoqqmmrrbcvg4c1sium2c98keji6ufo.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "322501073712-81lfak0277jdraci2tsgepp4be3cqsnu.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.instagram.RunnerTests"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:322501073712:android:91563610456ae0d88bc6f5",
-        "android_client_info": {
-          "package_name": "com.example.flutter_prototype"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "322501073712-4qmgllug92s08vcf5l0j6k3igo86tei5.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyA521uyL_Mq880oIZHgCgY_DZSXWMrVL4g"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "322501073712-4qmgllug92s08vcf5l0j6k3igo86tei5.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "322501073712-81lfak0277jdraci2tsgepp4be3cqsnu.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.instagram.RunnerTests"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:322501073712:android:3036cd3f26dc24da8bc6f5",
-        "android_client_info": {
-          "package_name": "com.suhyeon.instagram"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "322501073712-4qmgllug92s08vcf5l0j6k3igo86tei5.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyA521uyL_Mq880oIZHgCgY_DZSXWMrVL4g"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "322501073712-4qmgllug92s08vcf5l0j6k3igo86tei5.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "322501073712-81lfak0277jdraci2tsgepp4be3cqsnu.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.instagram.RunnerTests"
-              }
             }
           ]
         }

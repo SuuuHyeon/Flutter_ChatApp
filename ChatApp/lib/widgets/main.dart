@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_practice/firebase_options.dart';
+
 import 'package:firebase_practice/helper/helper_function.dart';
 import 'package:firebase_practice/pages/auth/login_page.dart';
 import 'package:firebase_practice/pages/home_page.dart';
@@ -34,7 +35,9 @@ class _MyAppState extends State<MyApp> {
   getUserLoggedInStatus() async {
     await HelperFunctions.getUserLoggedInStatus().then((value) {
       if(value != null) {
-        _isSignedIn = value;
+        setState(() {
+          _isSignedIn = value;
+        });
       }
     });
   }

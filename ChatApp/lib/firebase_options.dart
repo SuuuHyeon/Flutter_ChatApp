@@ -44,39 +44,41 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDphZgUG62Y2RAjN1INODA-Sw1Jko6n4Ec',
-    appId: '1:322501073712:web:21da36f62de1644d8bc6f5',
-    messagingSenderId: '322501073712',
-    projectId: 'fluttergram-a5de2',
-    authDomain: 'fluttergram-a5de2.firebaseapp.com',
-    storageBucket: 'fluttergram-a5de2.appspot.com',
+    apiKey: 'AIzaSyBnG2CCs7bF0-y151UlQZSnX3H6-ziySoo',
+    appId: '1:578525692226:web:d3e845528d315c4b4608db',
+    messagingSenderId: '578525692226',
+    projectId: 'chatappflutter-9edbf',
+    authDomain: 'chatappflutter-9edbf.firebaseapp.com',
+    storageBucket: 'chatappflutter-9edbf.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA521uyL_Mq880oIZHgCgY_DZSXWMrVL4g',
-    appId: '1:322501073712:android:f2c39cc2e7dabd558bc6f5',
-    messagingSenderId: '322501073712',
-    projectId: 'fluttergram-a5de2',
-    storageBucket: 'fluttergram-a5de2.appspot.com',
+    apiKey: 'AIzaSyBnnZYYx-hnr3eTY3NmaQKtxh2J7-95J7c',
+    appId: '1:578525692226:android:8370eb4a57eb089b4608db',
+    messagingSenderId: '578525692226',
+    projectId: 'chatappflutter-9edbf',
+    storageBucket: 'chatappflutter-9edbf.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCA_OmWQ1PTrRnsOG_wcUHLjVQaejbdTaE',
-    appId: '1:322501073712:ios:a11b30c4b6c549e18bc6f5',
-    messagingSenderId: '322501073712',
-    projectId: 'fluttergram-a5de2',
-    storageBucket: 'fluttergram-a5de2.appspot.com',
-    iosClientId: '322501073712-hpenk2l2qqjijvpk81r3toi2btrlflb4.apps.googleusercontent.com',
+    apiKey: 'AIzaSyDXQjFEcXV-Q3vMAXOx-dvs1suaR9WxqNk',
+    appId: '1:578525692226:ios:6b7a63d7d2d9e0a54608db',
+    messagingSenderId: '578525692226',
+    projectId: 'chatappflutter-9edbf',
+    storageBucket: 'chatappflutter-9edbf.appspot.com',
+    androidClientId: '578525692226-19oad2lr3h8cb7rgmf0pv71hn9o7jumr.apps.googleusercontent.com',
+    iosClientId: '578525692226-6pd2gb8ip4thcf2obm27sf6ptvdotp63.apps.googleusercontent.com',
     iosBundleId: 'com.example.firebasePractice',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCA_OmWQ1PTrRnsOG_wcUHLjVQaejbdTaE',
-    appId: '1:322501073712:ios:a5bd029ea0a78dfd8bc6f5',
-    messagingSenderId: '322501073712',
-    projectId: 'fluttergram-a5de2',
-    storageBucket: 'fluttergram-a5de2.appspot.com',
-    iosClientId: '322501073712-s3b5b5f7cjadas6audstapl3cfpi1fve.apps.googleusercontent.com',
+    apiKey: 'AIzaSyDXQjFEcXV-Q3vMAXOx-dvs1suaR9WxqNk',
+    appId: '1:578525692226:ios:2bb712c3f1cea2cc4608db',
+    messagingSenderId: '578525692226',
+    projectId: 'chatappflutter-9edbf',
+    storageBucket: 'chatappflutter-9edbf.appspot.com',
+    androidClientId: '578525692226-19oad2lr3h8cb7rgmf0pv71hn9o7jumr.apps.googleusercontent.com',
+    iosClientId: '578525692226-89ngkoc53utm1q53m1c5b4ivb1ep7qfk.apps.googleusercontent.com',
     iosBundleId: 'com.example.firebasePractice.RunnerTests',
   );
 }
