@@ -1,4 +1,5 @@
 import 'package:firebase_practice/pages/auth/login_page.dart';
+import 'package:firebase_practice/pages/profile_page.dart';
 import 'package:firebase_practice/pages/search_page.dart';
 import 'package:firebase_practice/service/auth_service.dart';
 import 'package:firebase_practice/widgets/widgets.dart';
@@ -82,7 +83,9 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
             ListTile(
-              onTap: () {},
+              onTap: () {
+                nextScreen(context, const ProfilePage());
+              },
               contentPadding:
                   const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
               leading: const Icon(Icons.groups),
@@ -92,9 +95,39 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
             ListTile(
-              onTap: () async {
-                await authService.signOut().whenComplete(
-                    () => nextScreenReplace(context, const LoginPage()));
+              onTap: () {
+                showDialog(
+                    context: context,
+                    builder: (context) {
+                      return AlertDialog(
+                        title: const Text(
+                          '정말 로그아웃 하시겠습니까?',
+                          style: TextStyle(fontSize: 13),
+                        ),
+                        actions: [
+                          IconButton(
+                            onPressed: () {
+                              Navigator.pop(context);
+                            },
+                            icon: const Icon(
+                              Icons.cancel,
+                              color: Colors.red,
+                            ),
+                          ),
+                          IconButton(
+                            onPressed: () async {
+                              await authService.signOut().whenComplete(() =>
+                                  nextScreenReplace(
+                                      context, const LoginPage()));
+                            },
+                            icon: const Icon(
+                              Icons.check,
+                              color: Colors.green,
+                            ),
+                          ),
+                        ],
+                      );
+                    });
               },
               contentPadding:
                   const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
