@@ -54,7 +54,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyBnnZYYx-hnr3eTY3NmaQKtxh2J7-95J7c',
-    appId: '1:578525692226:android:8370eb4a57eb089b4608db',
+    appId: '1:578525692226:android:64f4fce0554990524608db',
     messagingSenderId: '578525692226',
     projectId: 'chatappflutter-9edbf',
     storageBucket: 'chatappflutter-9edbf.appspot.com',
